@@ -2,25 +2,36 @@
 @import "mediaplayer.min";
 @import url('https://fonts.googleapis.com/css?family=Anton|Nosifer');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Loved+by+the+King|Pangolin');
-/*
-font-family: 'Anton', sans-serif;
-font-family: 'Nosifer', cursive;
-*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+    and (max-device-width: 480px){
+          background-image: linear-gradient(to bottom, gold, gold 10%, black 10%, black 25%, gold 25%, gold 33%, #febb0c 59%);
+}
+
+@media (min-device-width: 850px) {
+          background-image: linear-gradient(to bottom, gold, gold 5%, black 5%, black 25%, gold 25%, gold 33%, #febb0c 59%);
+}
+
+//.uk-width-1-2\@s{
+//  width: 100%
+//}
+//.mejs__container{
+//    width: 90%;
+//}
+//.mejs__mediaelement{
+//    width: 90%;
+//}
 
 // #mep_0{
-//   width: 900px;
+//   width: 90%;
 // }
 // .mejs__video{
 //   width: 1000px;
 // }
-// .mejs_time_rail{
+// .mejs_-time-rail{
 //   width: 720px;
 // }
-
-.uk-width-1-2\@s{
-  width: 100%
-}
-
 
 //BACKGROUND GRADIENT
 html{ 
@@ -31,7 +42,7 @@ html{
 article{
   width: 100%;
 }
-// headline
+// HEADLINE
 h1{
     text-transform: uppercase;
     font-family: 'Anton', Arial, sans-serif;
@@ -91,267 +102,113 @@ gallery{
   width: 100%;
 }
 
-// gallery li{
-//   width: 150px;
-//   height: 200px;
-//   margin: 10px;
-//   background-image: url(../img/uma1.jpg);
-//   background-repeat: no-repeat;
-//   position: relative;
-//   display: inline-block;
-//   border: 10px solid black;
-//   box-shadow: darkorange 5px 5px 5px;
-//   transition: background-image .8s ease;
-//   border-radius: 16px;
-// }
-
-// gallery li:hover{
-//   width: 150px;
-//   height: 200px;
-//   margin: 10px;
-//   background-image: url(../img/bride1.jpg);
-//   background-repeat: no-repeat;
-// }
-
 .uma{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/uma.jpg);
   background-repeat: no-repeat;
-//   position: relative;
-//   display: inline-block;
-//   border: 10px solid black;
-//   box-shadow: darkorange 5px 5px 5px;
-//   transition: background-image .8s ease;
-//   border-radius: 16px;
 }
 
 .uma:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/bride.jpg);
   background-repeat: no-repeat;
   transition: background-image .8s ease;
 }
 
 .lucy{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/lucy.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .lucy:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/oren.jpg);
   background-repeat: no-repeat;
 }
 
 .vivica{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/vivica.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .vivica:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/vernita.jpg);
   background-repeat: no-repeat;
 }
 
 .daryl{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/daryl.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .daryl:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/elle.jpg);
   background-repeat: no-repeat;
 }
 
 .michael{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/michael.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .michael:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/budd.jpg);
   background-repeat: no-repeat;
 }
 
 .julie{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/julie.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .julie:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/sofie.jpg);
   background-repeat: no-repeat;
 }
 
 .chiaki{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/chiaki.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .chiaki:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/gogo.jpg);
   background-repeat: no-repeat;
 }
 
 .sonny{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/sonny.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .sonny:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/hattori.jpg);
   background-repeat: no-repeat;
 }
 
 .gordon{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/gordon.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .gordon:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/johnny.jpg);
   background-repeat: no-repeat;
 }
 
 .parks{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/parks.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkorange 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .parks:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/earl.jpg);
   background-repeat: no-repeat;
 }
 
 .david{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/david.jpg);
   background-repeat: no-repeat;
-  // position: relative;
-  // display: inline-block;
-  // border: 10px solid black;
-  // box-shadow: darkgoldenrod 5px 5px 5px;
-  // transition: background-image .8s ease;
-  // border-radius: 16px;
 }
 
 .david:hover{
-  // width: 150px;
-  // height: 200px;
-  // margin: 10px;
   background-image: url(../img/bill.jpg);
   background-repeat: no-repeat;
 }
