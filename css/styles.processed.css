@@ -10930,6 +10930,7 @@ iframe.uk-cover {
 .mejs__overlay-button {
   background: url(../img/controls.svg) 0 -39px no-repeat;
   overflow: hidden;
+    background-size: 300px;
 }
 
 .mejs__overlay:hover>.mejs__overlay-button {
@@ -10944,6 +10945,7 @@ iframe.uk-cover {
   -webkit-animation: mejs-loading-spinner 1s linear infinite;
   -moz-animation: mejs-loading-spinner 1s linear infinite;
   animation: mejs-loading-spinner 1s linear infinite;
+    background-size: 300px;
 }
 
 @-moz-keyframes mejs-loading-spinner {
@@ -11006,6 +11008,7 @@ iframe.uk-cover {
   border: 0;
   background: url(../img/controls.svg);
   overflow: hidden;
+    background-size: 300px;
 }
 
 .mejs__button>button:focus {
