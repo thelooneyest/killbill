@@ -3,11 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Nosifer');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Loved+by+the+King|Pangolin');
 
-@media only screen 
-  and (min-device-width: 320px) 
-    and (max-device-width: 480px){
-          background-image: linear-gradient(to bottom, gold, gold 10%, black 10%, black 25%, gold 25%, gold 33%, #febb0c 59%);
-}
+
 
 
 //BACKGROUND GRADIENT
@@ -15,6 +11,16 @@ html{
   background-image: linear-gradient(to bottom, gold, gold 15%, black 15%, black 25%, gold 25%, gold 33%, #febb0c 59%);
 }
 
+VIDEO PLAYER
+/////////////////////WHEN ACTIVE, CONTROLS SHOW UP CORRECTLY
+
+.mejs__button>button{
+    background-size: 300px;
+}
+.mejs__overlay-button{
+    background-size: 300px;
+    display: visible;
+}
 
 article{
   width: 100%;
