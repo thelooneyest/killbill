@@ -18,6 +18,7 @@
 
   <!--  YOUR STYLES  -->
   <link rel="stylesheet" href="css/styles.processed.css">
+  <link rel="stylesheet" href="css/animate.css">
 
   <title>Kill Bill Volume 1</title>
 </head>
@@ -28,8 +29,9 @@
   <main uk-grid>
 
     <!-- Header -->
-    <header class="uk-width-1-1">
-      <h1>Kill Bill Volume 1</h1>
+    <header class="uk-width-1-1 animated slideInUp">
+      <h1>Kill Bill</h1> <br>
+        <h4>Volume 1</h4>
      <h3>A Film by Quentin Tarantino</h3>
     </header>  
       
@@ -41,29 +43,49 @@
     <article class="uk-width-1-2@s">
      
     <video poster="img/poster.jpg">
+      <!-- VIDEOS CAN'T BE UPLOADED TO CODEPEN, BUT ARE ON GITHUB -->
       <source src="video/trailer.mp4" type="video/mp4" />
       <source src="video/trailer.webm" type="video/webm" />
     </video>
      
       <h2>Synopsis</h2>
-      <p class="synopsis">The Bride wakens from a four-year coma. Before she was 'The Bride', she was part of the Deadly Viper Assissination Squad, led by Bill. When she tried to leave the squad, they tried to assassinate her. Now she's back and out for revenge. She will reap a swatch of bloody revenge until she reaches her final target where she will . . . KILL BILL.</p>
+            <p class="synopsis">Uma Thurman stars as "The Bride", a deadly assassin who is a member of the Deadly Viper Assassination Squad. When she tries to quit the assassin business, her former boss Bill decides to take her out. Even after taking a bullet to the head, she doesn't die ...instead falling into a coma.</p>
+      
+      <p class="synopsis">Four years later, 'The Bride' wakens from her coma with revenge on her mind. Now she'll have to fight her way through a deadly array of enemies to get revenge. She will reap a swath of bloody revenge until she reaches her final target where she will . . . KILL BILL.</p>
     </article>
 
     <!-- Aside -->
     <gallery>
-      <ul>
-        <li class="uma"><actor>Uma Thurman as The Bride</actor></li>
-        <li class="lucy"><actor>Lucy Liu as O-Ren Ishii</actor></li>
-        <li class="vivica"><actor>Vivica A. Fox as Vernita Green</actor></li>
-        <li class="daryl"><actor>Daryl Hannah as Elle Driver</actor></li>
-        <li class="michael"><actor>Michael Madsen as Budd</actor></li>
-        <li class="julie"><actor>Julie Dreyfus as Sofie Fatale</actor></li>
-        <li class="chiaki"><actor>Chiaki Kuriyama as Gogo Yubari</actor></li>
-        <li class="sonny"><actor>Sonny Chiba as Hattori Hanzo</actor></li>
-        <li class="gordon"><actor>Gordon Liu as Johnny Mo</actor></li>
-        <li class="parks"><actor>Michael Parks as Earl McGraw</actor></li>
-        <li class="david"><actor>and David Carradine as Bill</actor></li>
-      </ul>
+      <h2>Cast</h2>
+          <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/bride.jpg" alt="">
+              <actor>Uma Thurman as The Bride</actor>
+          </div>
+          
+          <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/oren.jpg" alt="">
+              <actor>Lucy Liu as O-Ren Ishii</actor>
+          </div>
+          
+          <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/vernita.jpg" alt="">
+              <actor>Vivica A. Fox as Vernita Green</actor>
+          </div>
+          
+          <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/elle.jpg" alt="">
+              <actor>Daryl Hannah as Elle Driver</actor>
+          </div>
+          
+         <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/budd.jpg" alt="">
+              <actor>Michael Madsen as Budd</actor>
+          </div>
+          
+         <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s">
+              <img src="img/bill.jpg" alt="">
+              <actor>and David Carradine as Bill</actor>
+          </div>
     </gallery>
   
   <!-- Footer -->
@@ -98,7 +120,9 @@
   <script src="js/lettering.js"></script>
   <!--  YOUR SCRIPTS -->
   <script src="js/scripts.js"></script>
+  <script  src="js/index.js"></script>
 
+  
 </body>
 
 </html>
