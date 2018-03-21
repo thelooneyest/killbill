@@ -11472,35 +11472,46 @@ article {
   width: 100%;
 }
 
-h1 {
-  text-transform: uppercase;
-  font-family: 'Anton', Arial, sans-serif;
-  margin: 8px auto;
-  padding: 10px;
-  text-align: center;
-  font-size: 6em;
-  color: black;
-  line-height: 1.1em;
+h1{
+    text-transform: uppercase;
+    font-family: 'Anton', Arial, sans-serif;
+    margin: 8px auto;
+    padding: 80px 10px 0px 10px;
+    text-align: center;
+    font-size: 10em;
+    color: black;
+    line-height: .4em;
 }
 
-h2 {
-  text-transform: uppercase;
-  font-family: 'Anton', Arial, sans-serif;
-  margin: 0px auto;
-  padding: 0px;
-  font-size: 2.6em;
-  color: black;
-  text-shadow: 3px 2px 0px darkgrey;
+h2{
+    text-transform: uppercase;
+    font-family: 'Anton', Arial, sans-serif;
+    margin: 105px auto 0px auto;
+    padding: 0px;
+    font-size: 2.6em;
+    color: black;
+    text-shadow: 3px 2px 0px darkgrey;
 }
 
-h3 {
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Anton', Arial, sans-serif;
-  margin: -25px auto;
-  padding: 0px;
-  text-align: center;
-  font-size: 1.8em;
+h3{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Anton', Arial, sans-serif;
+    margin: -25px auto;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+h4{
+    text-transform: uppercase;
+    font-family: 'Anton', Arial, sans-serif;
+    margin: 8px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    line-height: .9em;
 }
 
 .synopsis {
@@ -11531,116 +11542,7 @@ gallery {
   width: 100%;
 }
 
-.uma {
-  background-image: url(../img/uma.jpg);
-  background-repeat: no-repeat;
-}
 
-.uma:hover {
-  background-image: url(../img/bride.jpg);
-  background-repeat: no-repeat;
-  transition: background-image .8s ease;
-}
-
-.lucy {
-  background-image: url(../img/lucy.jpg);
-  background-repeat: no-repeat;
-}
-
-.lucy:hover {
-  background-image: url(../img/oren.jpg);
-  background-repeat: no-repeat;
-}
-
-.vivica {
-  background-image: url(../img/vivica.jpg);
-  background-repeat: no-repeat;
-}
-
-.vivica:hover {
-  background-image: url(../img/vernita.jpg);
-  background-repeat: no-repeat;
-}
-
-.daryl {
-  background-image: url(../img/daryl.jpg);
-  background-repeat: no-repeat;
-}
-
-.daryl:hover {
-  background-image: url(../img/elle.jpg);
-  background-repeat: no-repeat;
-}
-
-.michael {
-  background-image: url(../img/michael.jpg);
-  background-repeat: no-repeat;
-}
-
-.michael:hover {
-  background-image: url(../img/budd.jpg);
-  background-repeat: no-repeat;
-}
-
-.julie {
-  background-image: url(../img/julie.jpg);
-  background-repeat: no-repeat;
-}
-
-.julie:hover {
-  background-image: url(../img/sofie.jpg);
-  background-repeat: no-repeat;
-}
-
-.chiaki {
-  background-image: url(../img/chiaki.jpg);
-  background-repeat: no-repeat;
-}
-
-.chiaki:hover {
-  background-image: url(../img/gogo.jpg);
-  background-repeat: no-repeat;
-}
-
-.sonny {
-  background-image: url(../img/sonny.jpg);
-  background-repeat: no-repeat;
-}
-
-.sonny:hover {
-  background-image: url(../img/hattori.jpg);
-  background-repeat: no-repeat;
-}
-
-.gordon {
-  background-image: url(../img/gordon.jpg);
-  background-repeat: no-repeat;
-}
-
-.gordon:hover {
-  background-image: url(../img/johnny.jpg);
-  background-repeat: no-repeat;
-}
-
-.parks {
-  background-image: url(../img/parks.jpg);
-  background-repeat: no-repeat;
-}
-
-.parks:hover {
-  background-image: url(../img/earl.jpg);
-  background-repeat: no-repeat;
-}
-
-.david {
-  background-image: url(../img/david.jpg);
-  background-repeat: no-repeat;
-}
-
-.david:hover {
-  background-image: url(../img/bill.jpg);
-  background-repeat: no-repeat;
-}
 
 li {
   width: 150px;
