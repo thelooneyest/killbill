@@ -11463,7 +11463,7 @@ font-family: 'Nosifer', cursive;
 */
 
 .uk-width-1-2\@s {
-  width: 75%;
+  width: 100%;
 }
 
 html {
@@ -11471,7 +11471,7 @@ html {
 }
 
 article {
-  width: 100%;
+  width: 75%;
 }
 
 h1{
