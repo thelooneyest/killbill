@@ -9,7 +9,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background: #fff;
-  color: #666;
+  color: #000;
 }
 
 body {
@@ -124,7 +124,9 @@ video {
 }
 
 img {
-  border-style: none;
+    border: 6px solid black;
+    margin: 10px -36px 5px 0px;
+    box-shadow: 2px 2px 5px darkgoldenrod;
 }
 
 svg:not(:root) {
@@ -11461,7 +11463,7 @@ font-family: 'Nosifer', cursive;
 */
 
 .uk-width-1-2\@s {
-  width: 100%;
+  width: 75%;
 }
 
 html {
@@ -11483,18 +11485,18 @@ h1{
     line-height: .4em;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     font-family: 'Anton', Arial, sans-serif;
-    margin: 105px auto 0px auto;
+    margin: 105px auto 15px auto;
     padding: 0px;
-    font-size: 2.6em;
+    font-size: 4em;
     color: black;
-    text-shadow: 3px 2px 0px darkgrey;
+    text-shadow: 3px 2px 0px red;
 }
 
 h3{
-    color: black;
+    color: red;
     text-transform: uppercase;
     font-family: 'Anton', Arial, sans-serif;
     margin: -25px auto;
